@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PhotoSorter.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\Libraries\\Pictures\\tests\\source\" \"E:\\Libraries\\Pictures\\tests\\target\""
+    }
+  }
+}
