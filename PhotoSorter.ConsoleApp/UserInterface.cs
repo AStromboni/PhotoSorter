@@ -28,8 +28,8 @@ namespace PhotoSorter.ConsoleApp
             {
                 Console.ForegroundColor = color;
             }
-            
-            
+
+
         }
 
         public void WriteMessage(string message)

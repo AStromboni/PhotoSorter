@@ -1,5 +1,5 @@
-﻿using PhotoSorter.Windows;
-using PhotoSorter.Core;
+﻿using PhotoSorter.Core;
+using PhotoSorter.Windows;
 
 namespace PhotoSorter.ConsoleApp
 {
@@ -9,7 +9,7 @@ namespace PhotoSorter.ConsoleApp
         {
             IUserInterface userInterface = new UserInterface();
 
-            
+
             if (args.Length < 2)
             {
                 userInterface.WriteError("Merci de fournir : le dossier de lecture des images, et le dossier de rangement des images");
@@ -20,7 +20,7 @@ namespace PhotoSorter.ConsoleApp
 
             IPhotoSource source = new PhotoSource(sourceFolder);
             IFileMover mover = new FileMover(targetFolder);
-            
+
 
             var engine = new PhotoSorterEngine(mover, source, userInterface);
 

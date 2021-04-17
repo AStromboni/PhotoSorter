@@ -15,11 +15,7 @@ namespace PhotoSorter.Windows
 
         public string ComputeDestinationPath(string sourcePath, DateTime imageDateTime, string fileName)
         {
-            
-
-
             return Path.Combine(_destinationPath, imageDateTime.ToString("yyyy-MM-dd"), fileName);
-
         }
 
         public void MoveFile(string sourcePath, string destinationPath)

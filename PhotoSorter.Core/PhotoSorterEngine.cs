@@ -34,18 +34,18 @@ namespace PhotoSorter.Core
 
                 }
 
-                _userInterface.WriteMessage(String.Format("Le rangement de {0} fichier(s) est terminé.",imageCount));
+                _userInterface.WriteMessage(String.Format("Le rangement de {0} fichier(s) est terminé.", imageCount));
 
 
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 _userInterface.WriteError("Une erreur s'est produite pendant le traitement :");
                 _userInterface.WriteError(e.Message);
                 _userInterface.WriteError(e.StackTrace);
-                
+
             }
-            
+
         }
     }
 }

@@ -18,7 +18,7 @@ namespace PhotoSorter.Windows
         public IEnumerable<string> GetFilePaths()
         {
             var info = new DirectoryInfo(_sourcePath);
-            return info.GetFiles("*", SearchOption.AllDirectories).Select((i)=>i.FullName);
+            return info.GetFiles("*", SearchOption.AllDirectories).Select((i) => i.FullName);
 
         }
 
