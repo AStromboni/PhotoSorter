@@ -29,7 +29,7 @@ namespace PhotoSorter.Core
                 foreach (var sourcePath in _photoSource.GetFilePaths())
                 {
                     var imageDateTime = _photoSource.GetPhotoDateTimeFromPath(sourcePath);
-                    var imageFileName = _photoSource.GetPhotoFileName(sourcePath);
+                    var imageFileName = _photoSource.GetPhotoFileNameFromPath(sourcePath);
 
                     var targetPath = _fileMover.ComputeDestinationPath(sourcePath, imageDateTime, imageFileName);
                     _fileMover.MoveFile(sourcePath, targetPath);

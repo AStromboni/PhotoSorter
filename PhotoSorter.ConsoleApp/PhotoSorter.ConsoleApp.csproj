@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PhotoSorter.Core\PhotoSorter.Core.csproj" />
-    <ProjectReference Include="..\Photosorter.Windows\Photosorter.Windows.csproj" />
+    <ProjectReference Include="..\Photosorter.Windows\PhotoSorter.Windows.csproj" />
   </ItemGroup>
 
 </Project>

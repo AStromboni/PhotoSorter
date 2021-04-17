@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoSorter.ConsoleApp", "PhotoSorter.ConsoleApp\PhotoSorter.ConsoleApp.csproj", "{56E13EC4-2402-4E4B-8163-84B655D6A070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoSorter.Core", "PhotoSorter.Core\PhotoSorter.Core.csproj", "{8409C757-F540-429F-A2D6-6451377D0A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoSorter.Core", "PhotoSorter.Core\PhotoSorter.Core.csproj", "{8409C757-F540-429F-A2D6-6451377D0A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photosorter.Windows", "Photosorter.Windows\Photosorter.Windows.csproj", "{6F291275-8908-4503-99D7-8CA4978B31D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoSorter.Windows", "PhotoSorter.Windows\PhotoSorter.Windows.csproj", "{6F291275-8908-4503-99D7-8CA4978B31D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

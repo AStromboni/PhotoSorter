@@ -11,6 +11,6 @@ namespace PhotoSorter.Core
         IEnumerable<string> GetFilePaths();
 
         DateTime GetPhotoDateTimeFromPath(string path);
-        string GetPhotoFileName(string path);
+        string GetPhotoFileNameFromPath(string path);
     }
 }

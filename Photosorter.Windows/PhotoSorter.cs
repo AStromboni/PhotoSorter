@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Photosorter.Windows
+namespace PhotoSorter.Windows
 {
     public class PhotoSource : IPhotoSource
     {
@@ -30,7 +30,7 @@ namespace Photosorter.Windows
             return info.CreationTime;
         }
 
-        public string GetPhotoFileName(string path)
+        public string GetPhotoFileNameFromPath(string path)
         {
             var info = new FileInfo(path);
             return info.Name;

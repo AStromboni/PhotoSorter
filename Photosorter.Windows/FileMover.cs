@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Photosorter.Windows
+namespace PhotoSorter.Windows
 {
     public class FileMover : IFileMover
     {
